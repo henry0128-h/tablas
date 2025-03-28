@@ -1,0 +1,19 @@
+table{
+    width: 100%;/*hace que la tabla ocupe todo el ancho de la pagina*/
+    margin: 20px; /*margenes de la tabla*/
+}
+body{
+    background-color: burlywood;
+}
+th td{
+    padding: 10px; /*relleno dentro de las celdas*/
+    text-align: left;/*alineamiento del texto a la izquierda*/
+    border: 2.5px solid black;
+    }
+    th{
+        background-color: rgb(184, 112, 19);/*fondo parA EL ENCABEZADO*/
+        color: bisque;
+    }
+tr:hover{
+    background-color: dimgrey;/*cambia el fondo de las celdas al pasar el mause*/
+}

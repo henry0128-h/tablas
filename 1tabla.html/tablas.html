@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tablas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>diseño de tabla</h1>
+    <table> <tr>
+    <th>emncabezado 1</th>
+    <th>emncabezado 2</th></tr>
+    <tr>
+    <td>otro dato1</td>
+    <td>otro dato2</td>
+    </tr>
+
+    </table>
+    <h2>Formulario de Contacto</h2>   <!-- Título del formulario que aparece en la página -->
+    
+    <form action="/enviar" method="post"> <!-- Comienza el formulario, que enviará los datos al servidor con método POST -->
+        
+        <label for="nombre">Nombre:</label> <!-- Etiqueta para el campo de nombre, se usa para indicar qué se espera en el campo de entrada -->
+        <input type="email" id="email" name="email" required><br><br> <!-- Campo de entrada para el correo electrónico, de tipo email, obligatorio -->
+        <label for="mensaje">Mensaje:</label><br> <!-- Etiqueta para el campo de mensaje -->
+        <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>  <!-- Área de texto donde el usuario puede escribir un mensaje, con filas y columnas especificadas -->
+        <button type="submit">Enviar</button> <!-- Botón para enviar
+    
+</body>
+</html>
